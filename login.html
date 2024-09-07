@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="Srmseal.png">
+    <link REL="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>SRM Login Portal</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Login</h1>
+        <form action="index.php" method="POST">
+        <input type="text" id="username" placeholder="Username" required minlength="6">
+        <i class='bx bxs-user'></i>
+        <br>
+        <input type="password" id="password" placeholder="Password" required minlwngth="6">
+        <i class='bx bxs-lock-alt' ></i>
+        <br>
+        <label><input type="checkbox"> Remember me</label><br>
+        <button type="submit" class="button">Login</button>
+        <div class="register-link">
+            <p>Dont have an Account? <a href="#">Register</a></p>
+        </div>
+        </form>
+    </div>
+</body>
+</html>
